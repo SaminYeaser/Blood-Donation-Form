@@ -1,0 +1,19 @@
+CREATE TABLE donner_details(
+    id int NOT NULL AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    email varchar(255) NOT NULL,
+    gender varchar(255) NOT NULL,
+    age_granted varchar(255) NOT NULL,
+    weight_granted varchar(255) NOT NULL,
+    height_granted varchar(255) NOT NULL,
+    blood_group varchar(255) NOT NULL,
+    previous_donator varchar(255) NOT NULL,
+    regular_medicine varchar(255) NOT NULL,
+    smoker varchar(255) NOT NULL,
+    alcohol varchar(255) NOT NULL,
+    drugs_addiction varchar(255) NOT NULL,
+    contact_number int NOT NULL,
+    current_place varchar(255) NOT NULL,
+    agree varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
